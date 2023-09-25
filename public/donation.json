@@ -1,135 +1,129 @@
 [
-    {
-      "id": "1",
-      "picture": "https://i.ibb.co/CK1W6j3/Health.png",
-      "title": "Rural Clinic Supplies",
-      "cate_gory": "Health",
-      "card_bg": "#c4d7ff",
-      "category_bg": "#9dbcff",
-      "text_color": "#0052FF",
-      "description": "Donate to provide essential medical supplies to rural clinics, ensuring access to healthcare for those in need.",
-      "price": 100
-    },
-    {
-      "id": "2",
-      "picture": "https://i.ibb.co/8BsmpQ3/Education.png",
-      "title": "Young Readers",
-      "cate_gory": "Education",
-      "card_bg": "#ffcdcf",
-      "category_bg": "#ffa6a9",
-      "text_color": "#FF444A",
-      "description": "Contribute to our initiative to provide books to young readers, fostering a love for learning and literacy.",
-      "price": 200
-    },
-
-     {
-      "id": "3",
-      "picture": "https://i.ibb.co/nc1V4KN/Clothing.png",
-      "title": "Winter Clothing",
-      "cate_gory": "Clothing",
-      "card_bg": "#dcf1d4",
-      "category_bg": "#b8e3a7",
-      "text_color": "#79C23F",
-      "description": "Join our clothing drive to provide warm winter clothing to those in need during the cold months.",
-      "price": 100
-    },
-    {
-      "id": "4",
-      "picture": "https://i.ibb.co/s9f17JC/Food.png",
-      "title": "Food Relief",
-      "cate_gory": "Food",
-      "card_bg": "#ffdacb",
-      "category_bg": "#ffbea4",
-      "text_color": "#F87147",
-      "description": "Contribute to our emergency food relief efforts, helping families facing hunger during crises.",
-      "price": 150
-    },
-    {
-      "id": "5",
-      "picture": "https://i.ibb.co/s9f17JC/Food.png",
-      "title": "Community Kitchen",
-      "cate_gory": "Food",
-      "card_bg": "#ffdacb",
-      "category_bg": "#ffbea4",
-      "text_color": "#F87147",
-      "description": "Support the operation of a community kitchen that provides warm meals to homeless individuals in our community.",
-      "price": 150
-    },
-    {
-      "id": "6",
-      "picture": "https://i.ibb.co/nc1V4KN/Clothing.png",
-      "title": "Professional Attire",
-      "cate_gory": "Clothing",
-      "card_bg": "#dcf1d4",
-      "category_bg": "#b8e3a7",
-      "text_color": "#79C23F",
-      "description": "Support job seekers by providing them with professional attire, helping them make a positive impression in interviews.",
-      "price": 100
-    },
-    {
-      "id": "7",
-      "picture": "https://i.ibb.co/8BsmpQ3/Education.png",
-      "title": "Scholarships",
-      "cate_gory": "Education",
-      "card_bg": "#ffcdcf",
-      "category_bg": "#ffa6a9",
-      "text_color": "#FF444A",
-      "description": "Enable deserving students to pursue their dreams by offering scholarships for their education and future success.",
-      "price": 200
-    },
-    {
-      "id": "8",
-      "picture": "https://i.ibb.co/CK1W6j3/Health.png",
-      "title": "Meals for Families",
-      "cate_gory": "Health",
-      "card_bg": "#c4d7ff",
-      "category_bg": "#9dbcff",
-      "text_color": "#0052FF",
-      "description": "Help us provide nutritious meals to underprivileged families, ensuring they have the sustenance they need to thrive.",
-      "price": 100
-    },
-    {
-      "id": "9",
-      "picture": "https://i.ibb.co/CK1W6j3/Health.png",
-      "title": "Health Education",
-      "cate_gory": "Health",
-      "card_bg": "#c4d7ff",
-      "category_bg": "#9dbcff",
-      "text_color": "#0052FF",
-      "description": "Support healthcare education programs that empower vulnerable communities with knowledge about health and hygiene.",
-      "price": 100
-    },
-    
-    
-    {
-      "id": "10",
-      "picture": "https://i.ibb.co/8BsmpQ3/Education.png",
-      "title": "Computer Access",
-      "cate_gory": "Education",
-      "card_bg": "#ffcdcf",
-      "category_bg": "#ffa6a9",
-      "text_color": "#FF444A",
-      "description": "Bridge the digital divide by providing access to computers for underserved schools, opening up new learning opportunities.",
-      "price": 200
-    },
-   
-    
-    {
-      "id": "11",
-      "picture": "https://i.ibb.co/nc1V4KN/Clothing.png",
-      "title": "School Uniforms",
-      "cate_gory": "Clothing",
-      "card_bg": "#dcf1d4",
-      "category_bg": "#b8e3a7",
-      "text_color": "#79C23F",
-      "description": "Ensure that every child has access to school uniforms, removing a barrier to their education.",
-      "price": 100
-    },
-    
+  {
+    "id": "1",
+    "picture": "https://i.ibb.co/n8xbVvT/health1.jpg",
+    "title": "Rural Clinic Supplies",
+    "cate_gory": "Health",
+    "card_bg": "#c4d7ff",
+    "category_bg": "#9dbcff",
+    "text_color": "#0052FF",
+    "description": "Donate to provide essential medical supplies to rural clinics, ensuring access to healthcare for those in need. Your contribution will make a significant impact on improving the health and well-being of underserved communities. With your help, we can supply clinics with vital resources like medicines, medical equipment, and hygiene kits, ensuring that even the most vulnerable individuals receive the care they deserve.",
+    "price": 100
+  },
+  {
+    "id": "2",
+    "picture": "https://i.ibb.co/GC5cB34/education1.jpg",
+    "title": "Young Readers",
+    "cate_gory": "Education",
+    "card_bg": "#ffcdcf",
+    "category_bg": "#ffa6a9",
+    "text_color": "#FF444A",
+    "description": "Contribute to our initiative to provide books to young readers, fostering a love for learning and literacy. Your support will help nurture the next generation of leaders and thinkers. We aim to create libraries and reading programs in underserved communities, ensuring that children have access to educational resources that can transform their lives.",
+    "price": 200
+  },
+  {
+    "id": "3",
+    "picture": "https://i.ibb.co/nsk4pqn/clothing1.jpg",
+    "title": "Winter Clothing",
+    "cate_gory": "Clothing",
+    "card_bg": "#dcf1d4",
+    "category_bg": "#b8e3a7",
+    "text_color": "#79C23F",
+    "description": "Join our clothing drive to provide warm winter clothing to those in need during the cold months. Your contribution will help keep vulnerable individuals and families warm and comfortable, ensuring they have the clothing they need to stay healthy and safe.",
+    "price": 100
+  },
+  {
+    "id": "4",
+    "picture": "https://i.ibb.co/N6K1gVw/food.jpg",
+    "title": "Food Relief",
+    "cate_gory": "Food",
+    "card_bg": "#ffdacb",
+    "category_bg": "#ffbea4",
+    "text_color": "#F87147",
+    "description": "Contribute to our emergency food relief efforts, helping families facing hunger during crises. Your support will provide nutritious meals and essential food items to those in dire need, ensuring that no one goes to bed hungry.",
+    "price": 150
+  },
+  {
+    "id": "5",
+    "picture": "https://i.ibb.co/0n4Pjcn/food2.jpg",
+    "title": "Community Kitchen",
+    "cate_gory": "Food",
+    "card_bg": "#ffdacb",
+    "category_bg": "#ffbea4",
+    "text_color": "#F87147",
+    "description": "Support the operation of a community kitchen that provides warm meals to homeless individuals in our community. Your contribution will help us sustain this vital service and provide nourishment and hope to those in need.",
+    "price": 150
+  },
+  {
+    "id": "6",
+    "picture": "https://i.ibb.co/pzzVn45/clothing2.jpg",
+    "title": "Professional Attire",
+    "cate_gory": "Clothing",
+    "card_bg": "#dcf1d4",
+    "category_bg": "#b8e3a7",
+    "text_color": "#79C23F",
+    "description": "Support job seekers by providing them with professional attire, helping them make a positive impression in interviews. Your contribution will empower individuals to secure employment and build a better future.",
+    "price": 100
+  },
+  {
+    "id": "7",
+    "picture": "https://i.ibb.co/nrvL2c2/education2.jpg",
+    "title": "Scholarships",
+    "cate_gory": "Education",
+    "card_bg": "#ffcdcf",
+    "category_bg": "#ffa6a9",
+    "text_color": "#FF444A",
+    "description": "Enable deserving students to pursue their dreams by offering scholarships for their education and future success. Your support will make higher education accessible to talented individuals who aspire to make a positive impact on the world.",
+    "price": 200
+  },
+  {
+    "id": "8",
+    "picture": "https://i.ibb.co/wST0Lfd/health2.jpg",
+    "title": "Meals for Families",
+    "cate_gory": "Health",
+    "card_bg": "#c4d7ff",
+    "category_bg": "#9dbcff",
+    "text_color": "#0052FF",
+    "description": "Help us provide nutritious meals to underprivileged families, ensuring they have the sustenance they need to thrive. Your contribution will support our efforts to combat hunger and promote the health and well-being of families in need.",
+    "price": 100
+  },
+  {
+    "id": "9",
+    "picture": "https://i.ibb.co/Bnx3Ky9/health3.jpg",
+    "title": "Health Education",
+    "cate_gory": "Health",
+    "card_bg": "#c4d7ff",
+    "category_bg": "#9dbcff",
+    "text_color": "#0052FF",
+    "description": "Support healthcare education programs that empower vulnerable communities with knowledge about health and hygiene. Your contribution will help improve the health outcomes and quality of life for individuals in underserved areas.",
+    "price": 100
+  },
+  {
+    "id": "10",
+    "picture": "https://i.ibb.co/TK44h7R/education3.jpg",
+    "title": "Computer Access",
+    "cate_gory": "Education",
+    "card_bg": "#ffcdcf",
+    "category_bg": "#ffa6a9",
+    "text_color": "#FF444A",
+    "description": "Bridge the digital divide by providing access to computers for underserved schools, opening up new learning opportunities. Your contribution will equip students with essential digital skills and prepare them for a technology-driven future.",
+    "price": 200
+  },
+  {
+    "id": "11",
+    "picture": "https://i.ibb.co/rcKBHqF/clothing3.jpg",
+    "title": "School Uniforms",
+    "cate_gory": "Clothing",
+    "card_bg": "#dcf1d4",
+    "category_bg": "#b8e3a7",
+    "text_color": "#79C23F",
+    "description": "Ensure that every child has access to school uniforms, removing a barrier to their education. Your contribution will help children attend school with pride and dignity, creating opportunities for a brighter future.",
+    "price": 100
+  },
     
     {
       "id": "12",
-      "picture": "https://i.ibb.co/s9f17JC/Food.png",
+      "picture": "https://i.ibb.co/T0pSX8b/food3.jpg",
       "title": "Food Backpacks",
       "cate_gory": "Food",
       "card_bg": "#ffdacb",

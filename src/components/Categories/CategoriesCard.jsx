@@ -1,4 +1,6 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
+ 
 
 const CategoriesCard = ({ category }) => {
     const { id, title, picture,cate_gory,text_color,category_bg,card_bg } = category || {}
@@ -13,8 +15,11 @@ const CategoriesCard = ({ category }) => {
     const textColor = {
         color:text_color
     }
+   
+
   return (
-    <div style={cardBg}>
+    <Link to={`/categories/${id}`}>
+       <div   className="cursor-pointer" style={cardBg}>
       <div className="max-w-sm rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
           <img
@@ -36,6 +41,7 @@ const CategoriesCard = ({ category }) => {
         </div>
       </div>
     </div>
+    </Link>
   );
 };
 
