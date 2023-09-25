@@ -11,7 +11,7 @@ const Banner = () => {
         <div className="hero-overlay bg-white bg-opacity-90"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
-            <h1 className="mb-5 text-2xl text-black lg:text-4xl whitespace-nowrap font-bold">I Grow By Helping People In Need</h1>
+            <h1 className="mb-5 text-xl md:text-2xl text-black lg:text-4xl whitespace-nowrap font-bold">I Grow By Helping People In Need</h1>
             <div className="form-control ml-6 lg:ml-24 ">
                 <label className="input-group ">
                     <input type="text" placeholder="searh here..." className="input text-black input-bordered" />
