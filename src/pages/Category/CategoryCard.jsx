@@ -16,12 +16,12 @@ const CategoryCard = ({ category }) => {
         if (!donationsItems) {
             donationsArray.push(category)
             localStorage.setItem('donations', JSON.stringify(donationsArray))
-            swal("Thanks!", "Donate Succeed!", "success");
+            swal("Thanks for donating us!", "Donation Successful!", "success");
         }
         else {
             donationsArray.push(...donationsItems, category)
             localStorage.setItem('donations', JSON.stringify(donationsArray))
-            swal("Thanks!", "Donate Succeed!", "success");
+            swal("Thanks for donating us!", "Donation Successful!", "success");
         }
     }
     
