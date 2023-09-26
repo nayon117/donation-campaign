@@ -6,12 +6,13 @@ const Statistics = () => {
   const [myDonations, setDonations] = useState([]);
   useEffect(() => {
     const donationsItems = JSON.parse(localStorage.getItem('donations'));
-    setDonations(donationsItems);
-
+    setDonations(donationsItems || []);
     fetch('/donation.json')
       .then((res) => res.json())
-      .then((data) => setTotalDonations(data));
+      .then((data) => setTotalDonations(data))
+      
   }, []);
+  
 
   const totalDonation = totalDonations.length;
   const myDonation = myDonations.length;
@@ -57,7 +58,7 @@ const Statistics = () => {
             cy="50%"
             labelLine={false}
             label={renderCustomizedLabel}
-            outerRadius={80}
+            outerRadius={120}
             fill="#8884d8"
             dataKey="value"
           >
