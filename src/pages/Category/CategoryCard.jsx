@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import swal from 'sweetalert';
 
 const CategoryCard = ({ category }) => {
-    const { picture, title, description, price,text_color } = category || {}
+    const {id, picture, title, description, price,text_color } = category || {}
     const textColor = {
         backgroundColor: text_color,
         color:"white"
@@ -19,9 +19,16 @@ const CategoryCard = ({ category }) => {
             swal("Thanks for donating us!", "Donation Successful!", "success");
         }
         else {
-            donationsArray.push(...donationsItems, category)
-            localStorage.setItem('donations', JSON.stringify(donationsArray))
-            swal("Thanks for donating us!", "Donation Successful!", "success");
+            const isExist = donationsItems.find(category => category.id === id)
+            if (!isExist) {
+                donationsArray.push(...donationsItems, category)
+                localStorage.setItem('donations', JSON.stringify(donationsArray))
+                swal("Thanks for donating us!", "Donation Successful!", "success");
+            }
+            else {
+                swal("You Already donated This Item!", "Donate on other Items!", "error");
+            }
+           
         }
     }
     

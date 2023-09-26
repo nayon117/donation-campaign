@@ -1,4 +1,7 @@
-const Banner = () => {
+import PropTypes from 'prop-types'
+
+const Banner = ({ search,onSearchChange,onSearch}) => {
+  
   return (
     <div>
       <div
@@ -14,8 +17,8 @@ const Banner = () => {
             <h1 className="mb-5 text-xl md:text-2xl text-black lg:text-4xl whitespace-nowrap font-bold">I Grow By Helping People In Need</h1>
             <div className="form-control ml-6 lg:ml-24 ">
                 <label className="input-group ">
-                    <input type="text" placeholder="searh here..." className="input text-black input-bordered" />
-                    <span className="bg-[#FF444A] text-white font-semibold  ">Search</span>        
+                    <input value={search} onChange={(e)=>onSearchChange(e.target.value)} type="text" placeholder="searh here..." className="input text-black input-bordered" />
+                    <span onClick={onSearch} className="bg-[#FF444A] text-white font-semibold  ">Search</span>        
                 </label>
             </div>
              
@@ -26,4 +29,9 @@ const Banner = () => {
   );
 };
 
+Banner.propTypes = {
+  search: PropTypes.string,
+  onSearchChange: PropTypes.func,
+  onSearch:PropTypes.func
+}
 export default Banner;
