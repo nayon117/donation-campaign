@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import DonationCard from "./DonationCard";
 
  
-
 const Donation = () => {
     const [donations, setDonations] = useState([])
     const [noFound, setNoFound] = useState(false)
@@ -36,7 +35,7 @@ const Donation = () => {
                 }     
                         </div>
                         {
-                            donations.length > 4 && <button className="px-3 my-4 py-2 bg-red-500 rounded-md text-white block mx-auto" onClick={() => setIsShow(!IsShow)}>
+                            donations.length > 4 && <button className="px-3 my-4 py-2 bg-[#009444] rounded-md text-white block mx-auto" onClick={() => setIsShow(!IsShow)}>
                                 {IsShow ? 'See Less' : "See More"}
                             </button>
             }            
