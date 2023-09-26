@@ -26,7 +26,7 @@ const CategoryCard = ({ category }) => {
                 swal("Thanks for donating us!", "Donation Successful!", "success");
             }
             else {
-                swal("You Already donated This Item!", "Donate on other Items!", "error");
+                swal("You Already donated This Item!", "Donate on other things!", "error");
             }
            
         }
@@ -34,11 +34,14 @@ const CategoryCard = ({ category }) => {
     
     return (
         <div className='min-h-screen flex items-center justify-center py-10  '>
-            <div className='space-y-4 relative  '>
-                <img style={{ maxWidth: '100%' }} className='w-full h-[550px] mx-auto object-cover rounded-md   ' src={picture} alt="" />
-                <div className='hero-overlay bg-opacity-50 absolute top-2/3   w-full h-20  '>
+            <div className='space-y-4 '>
+                <div className='relative'>
+                    <img className='w-full h-[550px] mx-auto object-cover rounded-md  ' src={picture} alt="" />
+                    <div className='hero-overlay bg-opacity-50 absolute bottom-0 left-0 right-0  h-20 '>
                 <button onClick={handleDonate} className='btn ml-5 mt-4' style={textColor}>Donate $ {price }</button>
                </div>
+               </div>
+               
             <h2 className='text-3xl font-bold py-2 '>{ title}</h2>
             <p>{ description}</p>
            </div>

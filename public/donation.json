@@ -2,7 +2,7 @@
   {
     "id": "1",
     "picture": "https://i.ibb.co/n8xbVvT/health1.jpg",
-    "title": "Rural Clinic Supplies",
+    "title": "Rural Clinic Aid",
     "cate_gory": "Health",
     "card_bg": "#c4d7ff",
     "category_bg": "#9dbcff",
@@ -12,7 +12,7 @@
   },
   {
     "id": "2",
-    "picture": "https://i.ibb.co/GC5cB34/education1.jpg",
+    "picture": "https://i.ibb.co/9NtTXVx/education1-2.jpg",
     "title": "Young Readers",
     "cate_gory": "Education",
     "card_bg": "#ffcdcf",
@@ -46,7 +46,7 @@
   {
     "id": "5",
     "picture": "https://i.ibb.co/0n4Pjcn/food2.jpg",
-    "title": "Community Kitchen",
+    "title": "Kitchen Outreach",
     "cate_gory": "Food",
     "card_bg": "#ffdacb",
     "category_bg": "#ffbea4",

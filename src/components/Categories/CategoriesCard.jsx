@@ -34,7 +34,7 @@ const CategoriesCard = ({ category }) => {
                {cate_gory}
             </h5>
            
-          <p style={textColor} className="mb-3 text-xl font-semibold text-gray-700 dark:text-gray-400">
+          <p style={textColor} className="mb-3 text-xl whitespace-nowrap font-semibold text-gray-700 dark:text-gray-400">
              {title}
           </p>
           
