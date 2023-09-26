@@ -1,5 +1,4 @@
- 
-import PropTypes from 'prop-types';
+ import PropTypes from 'prop-types';
 import CategoriesCard from './CategoriesCard';
 
 const Categories = ({ categories }) => {

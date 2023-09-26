@@ -4,13 +4,16 @@ import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recha
 const Statistics = () => {
   const [totalDonations, setTotalDonations] = useState([]);
   const [userDonations, setUserDonations] = useState([]);
+
+// handle side effect and load data from localStorage and json file 
+
   useEffect(() => {
     const donationsItems = JSON.parse(localStorage.getItem('donations'));
     setUserDonations(donationsItems || []);
+   
     fetch('/donation.json')
       .then((res) => res.json())
-      .then((data) => setTotalDonations(data))
-      
+      .then((data) => setTotalDonations(data))  
   }, []);
   
 
@@ -67,7 +70,7 @@ const Statistics = () => {
             ))}
           </Pie>
           <Tooltip formatter={(value, name, ) => [`${(value).toFixed(1)}%`, name]} />
-          <Legend />
+          <Legend   />
         </PieChart>
       </ResponsiveContainer>
     </div>

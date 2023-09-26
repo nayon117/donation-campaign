@@ -1,4 +1,3 @@
- 
 import PropTypes from 'prop-types';
 import swal from 'sweetalert';
 
@@ -27,8 +26,7 @@ const CategoryCard = ({ category }) => {
             }
             else {
                 swal("You Already donated This Item!", "Donate on other things!", "error");
-            }
-           
+            }     
         }
     }
     

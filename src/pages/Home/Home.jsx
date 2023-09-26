@@ -20,7 +20,7 @@ const Home = () => {
             <Banner 
                 search={search}
                 onSearchChange={setSearch}
-                onSearch = {handleSearch}
+                handleSearch = {handleSearch}
             ></Banner>
             <Categories categories={filteredCategories}></Categories>
         </div>

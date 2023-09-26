@@ -6,7 +6,6 @@ import Statistics from "../pages/Statistics/Statistics";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Category from "../pages/Category/Category";
 
- 
 const myCreatedRoute = createBrowserRouter([
     {
         path: "/",
